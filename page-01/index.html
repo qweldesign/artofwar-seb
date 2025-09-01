@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>システム概要 | サガエメラルドビヨンド攻略サイト | 兵法の館</title>
+    <meta name="description" content="今作の未購入者や初心者向けに、シナリオとシステムの概要をご説明いたします。コンテンツ:主人公紹介/ワールドガイド/エメラルドヴィジョン/バトルシステム/技と術/陣形・ロール/アイテム/せんせい">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../favicon.ico">
+  </head>
+  <body>
+    <header class="siteHeader">
+      <h1 class="siteTitle"><a href="/"><span>サガエメラルドビヨンド | 兵法の館</span></a></h1>
+      <nav class="gNav">
+        <h2 class="gNav__heading">menu</h2>
+        <ul class="gNav__menu">
+          <li class="gNav__menuItem"><a href="../page-01/">システム概要</a></li>
+          <li class="gNav__menuItem"><a href="../page-02/">序盤の進め方</a></li>
+          <li class="gNav__menuItem"><a href="../page-03/">技・術・陣形</a></li>
+          <li class="gNav__menuItem"><a href="../page-04/">プレイレポート</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <header class="pageHeader">
+        <figure class="pageHeader__mainVisual">
+          <img src="../assets/seb_01.jpg">
+        </figure>
+        <h1 class="heading --level_1">システム概要</h1>
+        <p>今作の未購入者や初心者向けに、シナリオとシステムの概要をご説明いたします。</p>
+        <div class="localNav">
+          <ul class="localNav__menu">
+            <li class="localNav__menuItem"><a href="#section-01">種族</a></li>
+            <li class="localNav__menuItem"><a href="#section-02">主人公紹介</a></li>
+            <li class="localNav__menuItem"><a href="#section-03">ワールドガイド</a></li>
+            <li class="localNav__menuItem"><a href="#section-04">エメラルドヴィジョン</a></li>
+            <li class="localNav__menuItem"><a href="#section-05">バトルシステム</a></li>
+            <li class="localNav__menuItem"><a href="#section-06">技と術</a></li>
+            <li class="localNav__menuItem"><a href="#section-07">陣形・ロール</a></li>
+            <li class="localNav__menuItem"><a href="#section-08">アイテム</a></li>
+            <li class="localNav__menuItem"><a href="#section-09">せんせい</a></li>
+          </ul>
+        </div>
+      </header>
+      <section id="section-01" class="section">
+        <h2 class="heading --level_2">種族</h2>
+        <p>このゲームでは、様々な種族の登場人物が仲間になります。それぞれ種族によって、装備可能な武器と防具、技と術が異なり、戦闘時に取れる行動が変わってくる他、成長の仕方等にも違いがあります。</p>
+        <div class="tableWrap">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>種族</th>
+                <th>説明</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>人間</td>
+                <td>武器種ごとに様々な「技」を閃いて戦うことができます。「術」も扱えます。
+                  <br>技を扱える種族は他にもいますが、「我流技」という種類の技も使えるのは人間だけです。
+                  <br>武器を2つ装備可能で、異なる武器種を選ぶことで、様々な場面に対応できます。
+                  <br>技を熟練すると「ロール」を取得し、様々なボーナスを得られます。
+                  <br>人間の中でも「魔女」は術を得意とし、他方「従士」は術を扱えません。</td>
+              </tr>
+              <tr>
+                <td>クグツ(傀儡)</td>
+                <td>人間の使った技を「写し身」し、コピーして戦うことができます。「術」も扱えます。
+                  <br>人間と異なり武器は1つしか装備できません。また「我流技」も使えません。
+                  <br>「ロール」の一種で、敵を倒した時に入手できる「ソウル」をセットすることができます。</td>
+              </tr>
+              <tr>
+                <td>吸血鬼</td>
+                <td>人間同様に様々な「技」を閃いて戦うことができます。「術」も扱えます。
+                  <br>「我流技」が使えない代わりに、自身のLP（生命力）を消費する強力な「ブラッド技」を使えます。
+                  <br>特殊な装備である「ブラッドギア」に対応した「ブラッドロール」がセットされるのも特長です。</td>
+              </tr>
+              <tr>
+                <td>メカ</td>
+                <td>6つの装備スロットに自由にアイテムを装備し、アイテムに応じて能力値(HP等)と技が変化します。
+                  <br>装備に応じて「近接メカ技」、「射撃メカ技」、「補助メカ技」が自動でセットされます。
+                  <br>能力値は成長せず、装備に依存するので、周回プレイの時等は即戦力になります。
+                  <br>「魔具」というアイテムを装備すれば、モンスター技も使えますが、「術」は扱えません。</td>
+              </tr>
+              <tr>
+                <td>モンスター</td>
+                <td>敵として出現するモンスターを吸収し、その技を使うことができます。
+                  <br>武器は装備できず、モンスター技を主体に戦うことになります。
+                  <br>修得方法が少し複雑ですが、「術」も扱えます。</td>
+              </tr>
+              <tr>
+                <td>短命種</td>
+                <td>人間ベースの短命種と、モンスターベースの短命種が存在します。
+                  <br>LP（生命力）が少なく、寿命が尽きると大きく成長し、特殊な「継承技」を修得します。
+                  <br>片手剣技、体術技、術、モンスター技等、得意分野を1つ示す特殊な「短命ロール」が固定でセットされるのも特長の1つです。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      </section>
+      <section id="section-02" class="section">
+        <h2 class="heading --level_2">主人公紹介</h2>
+        <p>5組6人の主人公のうちから1組を選び、ゲームを開始します。</p>
+        <article class="mediaText">
+          <figure class="mediaText__media">
+            <img src="../assets/seb_01_02_01.jpg">
+          </figure>
+          <div class="mediaText__text">
+            <h3 class="heading --level_3">御堂綱紀 (種族: 人間)</h3>
+            <p>[ゲーム内解説]
+              <br>ミヤコ帝大学生 | 名門御堂家の一員。家業は傀儡使い。</p>
+            <p>[筆者解説]
+              <br>「傀儡」という特殊な種族の仲間4人と共に冒険を開始します。
+              <br>木火金水の「精霊の力」を求めるのが旅の目的です。</p>        
+          </div>
+        </article>
+        <article class="mediaText">
+          <figure class="mediaText__media">
+            <img src="../assets/seb_01_02_02.jpg">
+          </figure>
+          <div class="mediaText__text">
+            <h3 class="heading --level_3">アメイヤ・アシュリン (種族: 人間/魔女)</h3>
+            <p>[ゲーム内解説]
+              <br>白の魔女 | 白の賢き魔女の娘。魔女試験の真っ最中。</p>
+            <p>[筆者解説]
+              <br>「魔女」という設定ですが、技を使わせても強いです。
+              <br>失った魔力が姿を変えた「ネコ」を探すのが旅の目的です。</p>
+          </div>
+        </article>
+        <article class="mediaText">
+          <figure class="mediaText__media">
+            <img src="../assets/seb_01_02_03.jpg">
+          </figure>
+          <div class="mediaText__text">
+            <h3 class="heading --level_3">シウグナス (種族: 吸血鬼)</h3>
+            <p>[ゲーム内解説]
+              <br>闇の王 | 不死なる吸血鬼。数多の眷属を従える。</p>
+            <p>[筆者解説]
+              <br>「吸血鬼」という設定上、仲間の血を吸って強くなります。
+              <br>自身の眷属として「魅力ある者」を探して旅をします。</p> 
+          </div>
+        </article>
+        <article class="mediaText">
+          <figure class="mediaText__media">
+            <img src="../assets/seb_01_02_04.jpg">
+          </figure>
+          <div class="mediaText__text">
+            <h3 class="heading --level_3">ディーヴァ ナンバー5 (種族: メカ)</h3>
+            <p>[ゲーム内解説]
+              <br>歌姫 | エンターテイナーメカDivaシリーズの最新型。</p>
+            <p>[筆者解説]
+              <br>外観は人間の女性ですが、種族は「メカ」です。
+              <br>メカの「心」を探して旅をします。</p>
+          </div>
+        </article>
+        <article class="mediaText">
+          <figure class="mediaText__media">
+            <img src="../assets/seb_01_02_05.jpg">
+          </figure>
+          <div class="mediaText__text">
+            <h3 class="heading --level_3">ボーニー・ブレア & フォルミナ・フランクリン
+              <br> (種族: 人間)</h3>
+            <p>[ゲーム内解説]
+              <br>首都警察巡査 | 冷静な射手と熱血の鉄拳。</p>
+            <p>[筆者解説]
+              <br>二人組の主人公です。「三角形のピース」を求めて旅をします。</p>
+          </div>
+        </article>
+      </section>
+      <section id="section-03" class="section">
+        <h2 class="heading --level_2">ワールドガイド</h2>
+        <p>主人公達は「連接領域」と呼ばれる空間から繋がる17の異世界を冒険します。さっそく、その17の異世界と、そこで出会う仲間達を、ざっと説明しましょう。</p>
+        <div class="tableWrap">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>名前</th>
+                <th>説明</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>ミヤコ市</td>
+                <td>日本の古都、京都を模した世界です。
+                  <br>御堂の出身世界で、御堂、若(人間)を仲間にできる可能性があります。</td>
+              </tr>
+              <tr>
+                <td>プールクーラ</td>
+                <td>魔女達の暮らす美しい世界です。
+                  <br>アメイヤの出身世界で、アメイヤ、リタ、ウィルマ(共に人間/魔女)、
+                  <br>赤の従士(人間/従士)を仲間にできる可能性があります。</td>
+              </tr>
+              <tr>
+                <td>ヨミ</td>
+                <td>荒れ果てた闇の世界です。
+                  <br>シウグナスの出身世界で、シウグナス、ドロレス(人間)、
+                  <br>イマクー(モンスター)を仲間にできる可能性があります。</td>
+              </tr>
+              <tr>
+                <td>マーレ・ノストラム</td>
+                <td>大海原の世界です。
+                  <br>イーヴァル、アズーレ(共に人間)を仲間にできる可能性があります。</td>
+              </tr>
+              <tr>
+                <td>コスモス</td>
+                <td>人間の体内のような不思議な世界です。
+                  <br>エリュテイア、ビャク(共に短命種モンスター)を仲間にできる可能性があります。</td>
+              </tr>
+              <tr>
+                <td>サンク</td>
+                <td>4つの部族が覇権を争う世界です。
+                  <br>火民ニトラム、水民アティハナ、風民ナホイ、森民イルバス(共に人間)を
+                  <br>仲間にできる可能性があります。</td>
+              </tr>
+              <tr>
+                <td>コルディセップ</td>
+                <td>土の中の世界です。
+                  <br>グルマン(モンスター)を仲間にできる可能性があります。</td>
+              </tr>
+              <tr>
+                <td>アヴァロン</td>
+                <td>近代に差し掛かる頃の西洋の王都を模した世界です。
+                  <br>ディーヴァの出身世界で、吟遊詩人(メカ)、グィネヴィア、ランスロット、
+                  <br>刑事スピアー(共に人間)を仲間にできる可能性があります。</td>
+              </tr>
+              <tr>
+                <td>デルタベース</td>
+                <td>3つの部族がそれぞれ何かを研究している世界です。
+                  <br>ゴールド主任(メカ)、エミリー(人間)を仲間にできる可能性があります。</td>
+              </tr>
+              <tr>
+                <td>カマラ</td>
+                <td>美しい花が咲く世界です。
+                  <br>ナナ(人間)、キナ(モンスター)を仲間にできる可能性があります。</td>
+              </tr>
+              <tr>
+                <td>グレロン</td>
+                <td>平和だったはずの町が、何者かの呪いで凍りついた世界です。
+                  <br>最終皇帝(人間)を仲間にできる可能性があります。</td>
+              </tr>
+              <tr>
+                <td>クロウレルム</td>
+                <td>滅びた文明の痕跡がある砂漠の世界です。
+                  <br>サラーブ(メカ)、案山子、プロフェッサー(共に人間)を仲間にできる可能性があります。</td>
+              </tr>
+              <tr>
+                <td>プロヴィデンス</td>
+                <td>様々な「ヴィジョン」を見ることのできる世界です。加入できる仲間はいません。</td>
+              </tr>
+              <tr>
+                <td>ヴェルミーリオ</td>
+                <td>「三角形機関」と呼ばれる独自の文明が発達した世界です。
+                  <br>BX-10EX(メカ)を仲間にできる可能性があります。</td>
+              </tr>
+              <tr>
+                <td>ブライトホーム</td>
+                <td>死せる英雄達の行く着く、終わりなき戦いの世界です。
+                  <br>サイモン(メカ)を仲間にできる可能性があります。</td>
+              </tr>
+              <tr>
+                <td>キャピトルシティ</td>
+                <td>連合国首都という設定ですが、実在の合衆国を模した世界です。
+                  <br>ボーニーとフォルミナの出身世界で、エミリー(人間)を仲間にできる可能性があります。</td>
+              </tr>
+              <tr>
+                <td>グレートツリー</td>
+                <td>巨大な樹上の世界です。文明は存在せず、加入できる仲間はいません。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>各世界では、主人公の独自シナリオが用意されている場合もあれば、共通シナリオの場合もあります。</p>
+        <p>多くの場合は、その世界の案内人が登場し、結末でその世界を立ち去る直前に仲間として加入します。</p>
+        <p>1つの世界の冒険を終えたら、連接領域を経てまた次の世界へと、世界を渡り歩いて行きます。基本的には一度立ち去った世界にもう一度戻ることはありません。</p>
+        <p>このゲームは複数の主人公での周回プレイを前提としてデザインされており、「ユーザーに同じ体験をさせない」という明確なコンセプトとして、別の主人公で同じ世界を再び訪れたとしても、シナリオには必ず何らかの変化があります。しかも、その変化は前周の選択によって複雑に分岐する仕様になっています。</p>
+        <p>御堂編とアメイヤ編は、全体としてシナリオが短め（筆者の感覚で普通にプレイすると10時間以内にクリア可能）で、シウグナス編とディーヴァ編は長め（20時間位）、ボーニー&フォルミナ編はその中位です。</p>
+        <figure>
+          <img src="../assets/seb_01_03.jpg">
+        </figure>
+      </section>
+      <section id="section-04" class="section">
+        <h2 class="heading --level_2">エメラルドヴィジョン</h2>
+        <p>主人公達は生まれつき、もしくは物語の冒頭のイベント直後から、主人公にしか見えない「翠の波動」を見ることができます。その「翠の波動」は、行く先々で起こり得る運命の予知（ヴィジョン）になります。</p>
+        <p>連接領域やいずれかの世界に入ったとき、「スキャン」と呼ばれる動作を一回だけ行うことになります。「スキャン」後、その世界での様々なヴィジョンを見ることができます。</p>
+        <p>ヴィジョンには、主人公達の目的に直結するメインイベントに繋がる緑の線と、それ以外のサブイベントに繋がる青の線と、戦い（フリーバトル）に繋がる赤の線があります。</p>
+        <p>ストーリーは、好きなヴィジョンを追っていくことで、所々で分岐しつつ、自由に進んでいきます。</p>
+        <p>ヴィジョンの地点で戦闘が行われる場合の多くは、事前にバトルの難度（楽勝, 普通, 強敵, 最凶 の4段階）、出現する敵のアイコン（ただし撃破履歴のある敵だけ）、倒した後の報酬等が表示されます。</p>
+        <p>ヴィジョンの地点でのイベントは、いわゆる紙芝居の形式で進み、ダンジョンマップは存在しません。</p>
+        <p>イベントでは様々な選択をプレイヤーに委ねられ、選択次第でシナリオが分岐したり、新たなメンバーを仲間にしたり、アイテムを入手したりします。</p>
+        <div class="gallery">
+          <figure class="gallery__media">
+            <img src="../assets/seb_01_04_01.jpg">
+          </figure>
+          <figure class="gallery__media">
+            <img src="../assets/seb_01_04_02.jpg">
+          </figure>
+        </div>
+      </section>
+      <section id="section-05" class="section">
+        <h2 class="heading --level_2">バトルシステム</h2>
+        <p>前作「サガスカーレットグレイス」に引き続き、今作でも遊んでいる時間の大半はバトルとバトルの準備となります。そのバトルのメイン要素とも言えるのが、「タイムラインバトルシステム」です。総じてシリーズ上でも非常に戦術性が高く、またゲームとしての難度も高いと言えます。</p>
+        <p>バトルはターン制で展開されますが、ターン開始時のプレイヤー側の行動を選択するとき、既に敵の行動と行動順序は明らかになっています。ただし、敵の行動のターゲットまでは明らかにはされません。</p>
+        <p>ユニットの行動（技と術）には、5人のバトルメンバー共有のBP(ブレイブポイント)を、技や術ごとに決まった一定量消費します。1ターンで消費できるBPはターンごとに決まって（後述の「陣形」に関係する）いて、持ち越しはできません。</p>
+        <p>よって、1人に全てのBPを注いで大技を使っても良いし、全員にBPを分配して戦っても良いでしょう。行動しないユニットは自動的に「防御」となります。</p>
+        <p>また、ユニットの選択した技・術によって、行動順が補正される場合もあります。次に述べる「連携」は、そういった行動順の補正を有効に使って狙います。</p>
+        <h3 id="section-05-01" class="heading --level_3">連携</h3>
+        <p>今作ではタイムラインが12マスに区切られていますが、ユニットの技と術にはそのマスを埋める「連携範囲」が設定されています。連携範囲を繋げると、自動的に「連携」が発生します。</p>
+        <p>連携内では、「連携率」がカウントされ、この数値が高くなれば高くなるほど、後に続く技・術の威力が増大します。また、単体での攻撃はミスする可能性がありますが、連携すればミスしません。</p>
+        <p>積極的に連携を狙っていくのが、今作の最も基本的な戦術ですが、敵の行動も連携することがあるため、味方の連携を繋げることを優先するか、敵の連携を阻止することを優先するかが、バトルの勝利へと繋がる重要な駆け引きとなります。</p>
+        <h3 id="section-05-01" class="heading --level_3">オーバードライブ</h3>
+        <p>連携率が150%を超えた場合は一定確率(40%)で、200%を超えた場合は確実に、連携をもう一度繰り返します。これをオーバードライブと呼びます。</p>
+        <p>オーバードライブ時は、敵のガード率（ダメージ軽減率）を無視する等、更に攻撃効果が増大します。</p>
+        <p>尚、連携率は、普通に5連携しても200%に達することは稀です。後述のインタラプトやフォローといった行動によって、ターン開始時に連携する予定の無かったユニットの行動を連携に組み込む「追加ボーナス」や、連携中に敵を倒した場合に加算される「撃破ボーナス」等を利用すると、連携率が上がり易くなります。</p>
+        <h3 id="section-05-01" class="heading --level_3">独壇場</h3>
+        <p>連携の一種ですが、味方同士ではなく、単独で数々の技を敵に叩き込みます。タイムライン上で、自身の左右2マスに誰も居ないとき（端2マス内に居る場合はダメ）に、この「独壇場」が発生します。</p>
+        <p>独壇場は、そのターンの残りBP+1点を消費し切るまで、一人で連携を続けます。独壇場を狙って発生させたい場合、そのターンのBPを消費し切らない形で残しておくのが戦術的なポイントになります。</p>
+        <div class="gallery">
+          <figure class="gallery__media">
+            <img src="../assets/seb_01_05_01.jpg">
+          </figure>
+          <figure class="gallery__media">
+            <img src="../assets/seb_01_05_02.jpg">
+          </figure>
+        </div>
+      </section>
+      <section id="section-06" class="section">
+        <h2 class="heading --level_2">技と術</h2>
+        <p>プレイヤーが操作する「人間」は、今作では武器を2つまで装備可能で、1つの武器スロットには、4つある武器種のうち1つを装備するか、素手によって「技」を使用したり、「術」を使用したりできます。</p>
+        <p>また、技と術も、戦闘中に使用するものは8つまで選択して装備する形になります。</p>
+        <p>「技」は、敵にダメージを与える効果が主ですが、ダメージを与えつつ自分の戦闘能力を高めたり、敵の戦闘能力を低めたり、何らかの状態異常・一時異常を与えたりします。</p>
+        <p>最初のうちは使える技の種類は少ないですが、戦闘を繰り返すことで新しい技を「閃く」ことができるので、ゲーム後半に差し掛かる程、戦術的要素が増えていきます。</p>
+        <p>4つある武器種のうち、片手銃以外は、更にいくつかのサブグループに分類され、固有の技を使うことができます。どのサブグループでも扱える「汎用技」と、特定のサブグループでのみ扱える「固有技」を合わせ、さらに後述する我流技も含めると、恐らく200種類近くの「技」があるのでは無いでしょうか。</p>
+        <p>（筆者もとても覚え切れておらず、使用頻度の少ない有用な技があったかも知れません。）</p>
+        <p>尚、メカとモンスターは、独自の「メカ技」、「モンスター技」を使用できます。</p>
+        <h3 id="section-06-01" class="heading --level_3">リザーブ技</h3>
+        <p>技の中には、敵の行動によって発動するリザーブ（予約）技があります。リザーブ技には、前作からあるプロテクト、カウンター、インタラプトに加え、フォロー、チェイスの5種があります。これらを理解し、使いこなすのが、先述した「連携」と平行して、戦術を学ぶ最初の一歩だと言えます。</p>
+        <p>プロテクトは、自分か自分以外の味方を守るという行動で、攻撃手段ではありません。HPの回復手段が一切無い今作では、HPが減った重要な味方を守ることは、戦術上、非常に効果が高いです。全体攻撃を受けた場合等も、守られた味方は被害を受けません。プロテクト技は1ターン中に何度でも発動します。</p>
+        <p>カウンターは、自分が攻撃対象となった場合（ただし全体攻撃や間接攻撃を除く）に1度だけ発動し、仕掛けた敵の攻撃を無効化しつつ、敵を攻撃します。</p>
+        <p>インタラプト（割り込み）は、敵の特定の攻撃属性（斬・打・突の3種のうち1つ）に対して1度だけ発動し、仕掛けた敵の攻撃の前に、敵を攻撃します。敵の攻撃は無効化しませんが、カウンター技よりも確実に狙うことができ、技のパフォーマンスが高いのが特長です。</p>
+        <p>フォローは、インタラプトに似ていますが、最初に行動した味方の直後に行動します。フォロー技自体は連携範囲を持たない場合が多いですが、前後の技の連携範囲に上手くはめ込めば、連携として繋ぐことができます。</p>
+        <p>チェイスは、指定した敵の行動の直後に行動します。敵の連携を止めるために重宝することでしょう。</p>
+        <p>敵もリザーブ技を使うことがありますが、その場合は、行動名として「???」と表示されます。ゲームに慣れてきたら、どの敵がどんなリザーブ技を使うのか、記憶しておくことが攻略の鍵となってきます。</p>
+        <p>尚、リザーブ技は銃や術等による「リザーブ解除」の特性を持つ技で攻撃が成功すれば、解くことができます。ただし、「リザーブ解除」の特性を持っていてもインタラプト技には反応してしまうため、解除技の攻撃属性には十分注意しなければなりません。</p>
+        <h3 id="section-06-02" class="heading --level_3">術</h3>
+        <p>「術」は、他のゲームで言う魔法のようなもので、強力な全体攻撃を始め、様々な効果を持つものがあります。今作では、装備に関わらず使用することができます。</p>
+        <p>術が技と異なるのは、発動まで詠唱にターンを要する点です。詠唱中のターンは他の行動を取ることができませんが、その分、発動したときの効果がは高いです。</p>
+        <p>敵も術を使うことがありますが、敵の術が発動した場合、かなり壊滅的な被害を受けます。</p>
+        <p>よって、術を詠唱している味方をプロテクト技で守ることや、術を詠唱している敵を集中攻撃することもまた、今作の基本戦術の1つと言えます。</p>
+        <p>新しい術は、戦闘後に稀に閃くことで、修得可能になっています。</p>
+        <p>尚、今作では全体的に術の詠唱ターンは短縮されており、その分パフォーマンスは下がっています。</p>
+        <h3 id="section-06-03" class="heading --level_3">スキルレベルとランク</h3>
+        <p>技と術は、それに呼応する武器種ないし術のスキルレベルに比例して強くなります。スキルレベルは、戦闘後に一定確率で上昇します（最大50）。</p>
+        <p>スキルレベルとは異なり、技と術には1〜5の「ランク」が存在します。ランクが上昇すると、技や術のパフォーマンスが少し向上します（今作では、ランクアップの重要性はさほどではありません）。また、プロテクト技や補助効果のみの技や術は、消費BPが減ります。</p>
+        <p></p>
+        <div class="gallery">
+          <figure class="gallery__media">
+            <img src="../assets/seb_01_06_01.jpg">
+          </figure>
+          <figure class="gallery__media">
+            <img src="../assets/seb_01_06_02.jpg">
+          </figure>
+        </div>
+      </section>
+      <section id="section-07" class="section">
+        <h2 class="heading --level_2">陣形・ロール</h2>
+        <h3 id="section-07-01" class="heading --level_3">陣形</h3>
+        <p>陣形とは、戦闘時のフォーメーションのことですが、実質的には、戦闘時の初期BPと最大BP、およびBPの増減条件を決めます。</p>
+        <p>多くの陣形は初期BPが4で、ターン毎に1ずつ増加し、10で最大値となりますが、陣形によって初期BPが低い分、最大BPが高かったり、他の様々な特典があったりします。</p>
+        <p>また例えば、特定の行動の次のターンに、ユニットの消費BPを軽減させたりもします。例えば、最も基本的な陣形である「連携陣」は、連携した次のターンに、連携に参加したユニットの消費BPを1点軽減させます（オーバードライブが発生した時は2点軽減させます）。</p>
+        <p>初期は主人公の仲間の人数ずつ陣形が用意されていますが、新しい陣形は新たな仲間が加入したときに取得します。</p>
+        <h3 id="section-07-04" class="heading --level_3">ロール</h3>
+        <p>「ロール」とは、特定の技や術を修得したときに身につく特殊な役割です。</p>
+        <p>特定の属性による攻撃で与えるダメージを増加したり、逆に被るダメージを減少したり、状態異常の耐性を得たり、その内容は様々です。</p>
+        <p>中には片手剣や片手銃を、左右の手に1本ずつ装備して、特殊な技が使えるようになるロールもあります。</p>
+        <div class="gallery">
+          <figure class="gallery__media">
+            <img src="../assets/seb_01_07_01.jpg">
+          </figure>
+          <figure class="gallery__media">
+            <img src="../assets/seb_01_07_02.jpg">
+          </figure>
+        </div>
+      </section>
+      <section id="section-08" class="section">
+        <h2 class="heading --level_2">アイテム</h2>
+        <h3 id="section-08-01" class="heading --level_3">武器</h3>
+        <p>片手剣、両手剣、片手銃、両手銃、体術（素手）の5つの武器種が存在します。それぞれ先述の「スキルレベル」というパラメータで各々経験値が示され、スキルレベルが高いほど、技や術のパフォーマンスが増加します。</p>
+        <p>片手剣には、長剣・細剣・短剣・斧が、両手剣には、大剣・刀・薙刀が、両手銃には、機関銃・火炎放射器・電撃銃・爆撃銃・化学銃というサブグループが存在し、使用できる「固有技」が異なります。</p>
+        <h3 id="section-08-02" class="heading --level_3">防具</h3>
+        <p>主防具と副防具に分類され、副防具には、服・頭部用・腕部用・脚部用・アクセサリーというサブグループが存在します。</p>
+        <p>人間は主防具1つ、副防具3つを装備可能ですが、従来のシリーズ作品と異なり、例えば頭部用防具を3つ装備する、といったことも可能となっています。</p>
+        <p>尚、モンスターはアクセサリーしか装備できません。</p>
+        <h3 id="section-08-03" class="heading --level_3">素材・概念と強化</h3>
+        <p>「精霊石」をはじめとする各種「素材」と呼ばれるアイテムは、武器と防具の強化に用います。強化はメニュー画面からいつでも行うことができます。</p>
+        <p>今作には「科学的分析」、「術の深奥」等、「概念」と呼ばれる、強化に必要な消費しない一種のアイテムもあります。</p>
+        <h3 id="section-08-04" class="heading --level_3">トレード</h3>
+        <p>少し物語を進めると、メニュー画面から「トレード」が可能になります。トレードは、持っているアイテムを出品して交換する方法と、誰かが出品したアイテムを入札して交換する方法があります。</p>
+        <p>トレードできるアイテムは、出品・入札共に、1回戦闘を行うか、連接世界を移動するごとに更新されます。少し面倒な作業ではあるのですが、戦闘毎にトレード可能なアイテムをチェックし、積極的にアイテムを入れ替えていくことは、今作でゲームを有利に進めるための地道な戦略となります。</p>
+        <p>尚、トレードは他のゲームプレイヤーと交換を行う訳ではありません。内部的にプログラム済みのロジックに従いつつ、ランダムで内容が更新されていきます。</p>
+      </section>
+      <section id="section-09" class="section">
+        <h2 class="heading --level_2">せんせい</h2>
+        <p>少し物語を進めると、メニュー画面から「せんせい」を選択可能になります。</p>
+        <p>「せんせい」とは、「SaGa2秘宝伝説」で初登場を果たしたキャラクターで、今作では、本編のメインシナリオとは全く関係がありませんが、「せんせいの試練」、「せんせいの修行」、「最終試練」という3つの要素で関わってきます。</p>
+        <h3 id="section-09-01" class="heading --level_3">せんせいの試練</h3>
+        <p>戦闘前に、敵を倒す条件等を3つまで受注し、その条件をクリアすると報酬が貰える、という仕組みです。</p>
+        <p>「連携率150%」、「行動前に倒す」、「全員生存」など、その内容は様々です。</p>
+        <p>1周内で何度も達成可能なタイプと、1回切りのタイプがあり、1回切りのタイプは条件が難しい分、報酬も大きくなっています。</p>
+        <p>終盤辺りから希少になってくる素材の幾つかは、周回とこの「せんせいの試練」によって効率的に入手できたりもしますので、「トレード」と並んで、今作でゲームを有利に進めるための地道な戦略となります。</p>
+        <h3 id="section-09-02" class="heading --level_3">せんせいの修行</h3>
+        <p>リザーブメンバー（バトルに参加しないメンバー）を修行させておき、HPやスキルレベルを自動で上げておいてくれる、という仕組みです。</p>
+        <p>戦闘3回分修行を積むと「皆伝」となり、他のリザーブメンバーを指南できるようになります。</p>
+        <h3 id="section-09-03" class="heading --level_3">最終試練</h3>
+        <p>やりこみ要素です。通常のラスボスよりも凶悪な敵編成が13組用意されています。</p>
+        <p>それらには、「トレード」で入手できる「せんせいへの挑戦状」を持っていることで挑むことができます。「せんせいへの挑戦状」は、普通に物語を進めていけば、中盤以降で簡単に手に入れることができます。</p>
+        <p>最終試練を達成すると、強力なアイテムを入手できる場合がありますが、不確定ドロップ（体感的に30%～50%位とシリーズ上では高めな確率）なので、幾度か挑む必要があることでしょう。</p>
+        <div class="gallery">
+          <figure class="gallery__media">
+            <img src="../assets/seb_01_09_01.jpg">
+          </figure>
+          <figure class="gallery__media">
+            <img src="../assets/seb_01_09_02.jpg">
+          </figure>
+        </div>
+      </section>
+      <section class="section">
+        <h2 class="heading --level_2">コンテンツ</h2>
+        <article class="article">
+          <h3 class="heading --level_3"><a href="../page-01/">システム概要</a></h3>
+          <p>今作の未購入者や初心者向けに、シナリオとシステムの概要をご説明いたします。</p>
+          <div class="localNav">
+            <ul class="localNav__menu">
+              <li class="localNav__menuItem"><a href="#section-01">種族</a></li>
+              <li class="localNav__menuItem"><a href="#section-02">主人公紹介</a></li>
+              <li class="localNav__menuItem"><a href="#section-03">ワールドガイド</a></li>
+              <li class="localNav__menuItem"><a href="#section-04">エメラルドヴィジョン</a></li>
+              <li class="localNav__menuItem"><a href="#section-05">バトルシステム</a></li>
+              <li class="localNav__menuItem"><a href="#section-06">技と術</a></li>
+              <li class="localNav__menuItem"><a href="#section-07">陣形・ロール</a></li>
+              <li class="localNav__menuItem"><a href="#section-08">アイテム</a></li>
+              <li class="localNav__menuItem"><a href="#section-09">せんせい</a></li>
+            </ul>
+          </div>
+        </article>
+        <article class="article">
+          <h3 class="heading --level_3"><a href="../page-02/">序盤の進め方</a></h3>
+          <p>主に1周目を遊び始めた方へ、主人公別にこのゲームの序盤の進め方をお伝えします。</p>
+          <div class="localNav">
+            <ul class="localNav__menu">
+              <li class="localNav__menuItem"><a href="../page-02/#section-01">主人公の選択</a></li>
+              <li class="localNav__menuItem"><a href="../page-02/#section-02">初期編成のポイント</a></li>
+              <li class="localNav__menuItem"><a href="../page-02/#section-03">御堂編</a></li>
+              <li class="localNav__menuItem"><a href="../page-02/#section-04">アメイヤ編</a></li>
+              <li class="localNav__menuItem"><a href="../page-02/#section-05">シウグナス編</a></li>
+              <li class="localNav__menuItem"><a href="../page-02/#section-06">ディーヴァ編</a></li>
+              <li class="localNav__menuItem"><a href="../page-02/#section-07">ボーニー&フォルミナ編</a></li>
+            </ul>
+          </div>
+        </article>
+        <article class="article">
+          <h3 class="heading --level_3"><a href="../page-03/">技・術・陣形</a></h3>
+          <p>主に1周目を遊び始めた方へ、序盤で修得する技・術・陣形について解説・指南いたします。</p>
+          <div class="localNav">
+            <ul class="localNav__menu">
+              <li class="localNav__menuItem"><a href="../page-03/#section-01">片手剣技</a></li>
+              <li class="localNav__menuItem"><a href="../page-03/#section-02">両手剣技</a></li>
+              <li class="localNav__menuItem"><a href="../page-03/#section-03">片手銃技</a></li>
+              <li class="localNav__menuItem"><a href="../page-03/#section-04">両手銃技</a></li>
+              <li class="localNav__menuItem"><a href="../page-03/#section-05">体術</a></li>
+              <li class="localNav__menuItem"><a href="../page-03/#section-06">メカ技</a></li>
+              <li class="localNav__menuItem"><a href="../page-03/#section-07">モンスター技</a></li>
+              <li class="localNav__menuItem"><a href="../page-03/#section-08">術</a></li>
+              <li class="localNav__menuItem"><a href="../page-03/#section-09">特殊技1</a></li>
+              <li class="localNav__menuItem"><a href="../page-03/#section-10">特殊技2</a></li>
+              <li class="localNav__menuItem"><a href="../page-03/#section-11">陣形</a></li>
+            </ul>
+          </div>
+        </article>
+        <article class="article">
+          <h3 class="heading --level_3"><a href="../page-04/">プレイレポート</a></h3>
+          <p>主に実績等をコンプリートしたい方へ、筆者のプレイレポートにて解説いたします。</p>
+          <div class="localNav">
+            <ul class="localNav__menu">
+              <li class="localNav__menuItem"><a href="../page-04/#section-01">前書き</a></li>
+              <li class="localNav__menuItem"><a href="../page-04/#section-02">ディーヴァ編:1周目</a></li>
+              <li class="localNav__menuItem"><a href="../page-04/#section-03">アメイヤ編:2周目</a></li>
+              <li class="localNav__menuItem"><a href="../page-04/#section-04">御堂編:3周目</a></li>
+              <li class="localNav__menuItem"><a href="../page-04/#section-05">ボーニー&フォルミナ編:4周目</a></li>
+              <li class="localNav__menuItem"><a href="../page-04/#section-06">シウグナス編:5周目</a></li>
+              <li class="localNav__menuItem"><a href="../page-04/#section-07">アメイヤ編:6周目</a></li>
+              <li class="localNav__menuItem"><a href="../page-04/#section-08">御堂編:7周目</a></li>
+              <li class="localNav__menuItem"><a href="../page-04/#section-09">ディーヴァ編:8周目</a></li>
+              <li class="localNav__menuItem"><a href="../page-04/#section-10">ボーニー&フォルミナ編:9周目</a></li>
+              <li class="localNav__menuItem"><a href="../page-04/#section-11">アメイヤ編:10周目</a></li>
+              <li class="localNav__menuItem"><a href="../page-04/#section-12">御堂編:11周目</a></li>
+              <li class="localNav__menuItem"><a href="../page-04/#section-13">シウグナス編:12周目</a></li>
+              <li class="localNav__menuItem"><a href="../page-04/#section-14">ディーヴァ編:13周目</a></li>
+              <li class="localNav__menuItem"><a href="../page-04/#section-15">後書き</a></li>
+            </ul>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="footer">
+      site admin: seb.artofwar.site
+    </footer>
+  </body>
+</html>
